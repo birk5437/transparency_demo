@@ -1,0 +1,16 @@
+.transp {
+  position:absolute; /*z-index only works if you have the position attribute set.*/
+  opacity: 0.33;
+}
+
+.transp:hover {
+  opacity: 0.66;
+  z-index: 2;
+}
+
+.overlap {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  z-index: 1;
+}
